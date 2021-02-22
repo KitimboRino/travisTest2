@@ -40,30 +40,4 @@ const Factorial= answer =>{
     
 };
 
-
-/**
- * First comment-out above code and uncomment below code to test second code with no loop
- */
-
-
-//The recursive approach
-
-// function Factorial(n){
-//     try{
-//         if (typeof n !== 'number'){
-//             return 'undefined';
-//         }
-//         else if (n < 0) {
-//             return 'undefined';
-//         }
-//         if(n == 0 || n==1){
-//             return 1;
-//         }else{
-//             return n * factorial(n-1);
-//         }
-//     }catch(err){
-//       console.log('Error: Failed to test the code, maximum return value is 1');
-//     } 
-// };
-
 module.exports = Factorial;
